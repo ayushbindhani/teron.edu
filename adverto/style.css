@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
 
 
@@ -26,6 +26,7 @@ h2 {
   font-weight: 700;
 }
 
+
 h6 {
   color: #d6d6d6;
   font-size: 24px;
@@ -35,7 +36,7 @@ h6 {
 
 p.description {
   color: #5a5a5a;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -959,3 +960,21 @@ nav {
     1.1
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #ffffff;
+    /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px #6b6b6b;
+    /* creates padding around scroll thumb */
+    }
